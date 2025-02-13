@@ -1,0 +1,27 @@
+[
+  {
+    "student_id": "32091237",
+    "student_name": "Ray Aryadeep",
+    "attendance": "Absent"
+  },
+  {
+    "student_id": "08421832",
+    "student_name": "Alexia-Ana-Maria Popescu",
+    "attendance": "Absent"
+  },
+  {
+    "student_id": "8421947821",
+    "student_name": "Luca Echeumuna",
+    "attendance": "Absent"
+  },
+  {
+    "student_id": "76547939",
+    "student_name": "Harper Chinn",
+    "attendance": "Absent"
+  },
+  {
+    "student_id": "6543527378",
+    "student_name": "Shay John",
+    "attendance": "Absent"
+  }
+]
