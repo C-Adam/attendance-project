@@ -30,8 +30,6 @@ async function InitializeStudents() {
   });
 }
 
-function UpdateStudents() {}
-
 document.addEventListener("DOMContentLoaded", () => {
   InitializeStudents();
 });
