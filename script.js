@@ -13,13 +13,18 @@ async function InitializeStudents() {
   let studentData = await FetchStudentData();
   studentData.forEach((student) => {
     let studentName = student.student_name;
+    let studentId = student.student_id;
     let studentAttendance = student.attendance;
     let attendanceStatus =
       studentAttendance == "Absent" ? "absentLabel" : "presentLabel";
+    let studentPhoto =
+      student.has_photo == "True"
+        ? `images/${studentId}.png`
+        : `images/person-logo.png`;
     let studentFrameHtml = `
    <div class="studentFrame">
   <a target="_blank" href="second.html">
-    <img src="person-logo.png" alt="person-logo" width="200" />
+    <img src="${studentPhoto}" alt="person-logo" width="200" />
   </a>
   <div class="description">
     <p id="studentName">${studentName}</p>
